@@ -55,6 +55,8 @@ img{
     max-width: 100%;
 }
 
+
+
 .nav{
     /* display: flex; */
     background-color: #f7f7f7;
@@ -446,18 +448,15 @@ h5{
     .menu{
         position: relative;
     }
+
+    .search{
+        width: 20rem;
+    }
 }
 
-@media only screen and (max-width: 321px){
+@media only screen and (max-width: 768px){
     .menu-desktop{
         display: none;
     }
 }
 
-
-
-/* @media (min-width: 1080px){
-    #menuToggle{
-        display: none;
-    }
-} */

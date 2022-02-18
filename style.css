@@ -249,7 +249,6 @@ li{
     gap: 0.7rem;
     margin-top: 1rem;
     overflow-x: auto;
-    justify-content: center;
 }
 
 .story-indiv{
@@ -298,6 +297,7 @@ li{
 
 .receipe-title{
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
@@ -311,11 +311,13 @@ li{
 
 .receipe-hashtag{
     font-size: 0.8rem;
+    color: #7C7D7C;
+    font-style: italic;
 }
 
 .receipe-radpoint{
     display: flex;
-    gap: 0.1rem;
+    gap: 0.3rem;
 }
 
 .radpoint{
@@ -364,6 +366,10 @@ h5{
     margin-bottom: 0.6rem;
 }
 
+.challenge-details{
+    max-width: 9rem;
+}
+
 .challenge-footer{
     display: flex;
     justify-content: space-between;
@@ -375,6 +381,7 @@ h5{
 
 .challenge-radpoint-win{
     display: flex;
+    flex-direction: column;
     gap: 0.1rem;
 }
 
@@ -394,10 +401,17 @@ h5{
     gap: 0.1rem;
 } */
 
+.challenge-btn{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
 .to-win{
     font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
     margin-right: auto;
-    margin-left: 13rem;
     margin-bottom: 0.3rem;
 }
 

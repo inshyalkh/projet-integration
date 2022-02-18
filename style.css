@@ -185,6 +185,7 @@ img{
     padding: 5px;
     color: #ffff;
     font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
 }
 
 .menu{
@@ -304,7 +305,6 @@ li{
 
 .card-container{
     gap: 20px;
-    width: 20rem;
 }
 
 .card-header{
@@ -374,8 +374,6 @@ h5{
 
 .challenge-container{
     gap: 20px;
-    width: 20rem;
-    /* width: 25%; */
 }
 
 .challenge-title{
@@ -455,7 +453,7 @@ h5{
     background-color: #f7f7f7;
     width: 100%;
     box-shadow: 0rem 0rem 0.3rem #b7b7b7;
-    color: #519259;
+    color: #7C7D7C;
     
 }
 

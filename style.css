@@ -60,7 +60,7 @@ img{
 .nav{
     /* display: flex; */
     background-color: #f7f7f7;
-    height: 3.5rem;
+    height: 4rem;
     width: 100%;
     box-shadow: 0rem 0rem 0.3rem #b7b7b7;
 }
@@ -156,7 +156,7 @@ img{
 #menu{
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -58px;
+  margin: -100px 0 0 -70px;
   padding: 50px;
   padding-top: 100px;
   
@@ -189,10 +189,11 @@ img{
 
 .menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 3.5rem;
     list-style: none;
+    gap: 2rem;
 }
 
 .menu-desktop{
@@ -203,7 +204,6 @@ img{
 
 .menu-profile{
     display: flex;
-    gap: 2rem;
     align-items: center;
 }
 
@@ -262,7 +262,7 @@ li{
 
 .menu-logo{
     font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 2rem;
+    font-size: 3.4rem;
     color: #519259;
 }
 
@@ -304,6 +304,7 @@ li{
 
 .card-container{
     gap: 20px;
+    width: 20rem;
 }
 
 .card-header{
@@ -323,6 +324,7 @@ li{
     margin-bottom: 0.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .card-footer{
@@ -372,16 +374,17 @@ h5{
 
 .challenge-container{
     gap: 20px;
+    width: 20rem;
     /* width: 25%; */
 }
 
 .challenge-title{
-    margin-top: 0.5rem;
+    margin-top: 0.5rem;    
+    margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
-    margin-left: 3rem;
+    text-align: center;
 }
 
 
@@ -452,7 +455,12 @@ h5{
     background-color: #f7f7f7;
     width: 100%;
     box-shadow: 0rem 0rem 0.3rem #b7b7b7;
+    color: #519259;
     
+}
+
+.corp{
+    color: #7C7D7C;
 }
 
 /* 
@@ -519,7 +527,7 @@ h5{
 }
  */
 
-@media only screen and (min-width: 321px){
+@media only screen and (min-width: 767px){
     #menuToggle{
         display: none;
     }
@@ -531,9 +539,15 @@ h5{
     .search{
         width: 20rem;
     }
+
+    .menu-profile{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .menu-desktop{
         display: none;
     }

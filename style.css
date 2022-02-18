@@ -51,6 +51,15 @@ table {
 
 /*fin reset*/
 
+@font-face {
+    font-family: 'poppinslight';
+    src: url('poppins-light-webfont.woff2') format('woff2'),
+         url('poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 img{
     max-width: 100%;
 }
@@ -327,6 +336,11 @@ li{
     font-size: 1.5rem;
 }
 
+.receipe-img{
+    height: fit-content;
+    width: fit-content;
+}
+
 .card-footer{
     display: flex;
     justify-content: space-between;
@@ -388,6 +402,8 @@ h5{
 
 .challenge-img{
     margin-bottom: 0.6rem;
+    height: fit-content;
+    width: fit-content;
 }
 
 .challenge-details{

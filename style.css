@@ -193,6 +193,27 @@ img{
     list-style: none;
 }
 
+.menu-desktop{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-profile{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.menu-community, .menu-challenge, .menu-wallet{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #519259;
+    font-size: 0.8rem;
+}
+
 li{
     width: fit-content;
 }
@@ -417,15 +438,26 @@ h5{
 
 
 
-/* @media only screen and (min-width: 321px){
+@media only screen and (min-width: 321px){
     #menuToggle{
         display: none;
     }
 
     .menu{
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 10px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 321px){
+    .menu-desktop{
+        display: none;
+    }
+}
+
+
+
+/* @media (min-width: 1080px){
+    #menuToggle{
+        display: none;
     }
 } */
-

@@ -378,6 +378,7 @@ li{
 
 .radpoint{
     background-color: #fdd70b;
+    text-shadow: 1px 1px 2px rgb(116, 113, 113);
     color: white;
     font-size: 1rem;
     padding: 0.8rem;
@@ -445,6 +446,7 @@ h5{
 
 .challenge-radpoint{
     font-size: 0.8rem;
+    text-shadow: 1px 1px 2px rgb(116, 113, 113);
     background-color: #EC7630;
     color: white;
     font-size: 1rem;

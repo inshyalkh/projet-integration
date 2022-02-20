@@ -61,6 +61,8 @@ table {
 
 img{
     max-width: 100%;
+    height: fit-content;
+    width: fit-content;
 }
 
 
